@@ -22,7 +22,10 @@ return require('packer').startup(function(use)
   use('lervag/vimtex')
   use('christoomey/vim-tmux-navigator')
   use('jpalardy/vim-slime')
-
+  use {
+    'nvim-lualine/lualine.nvim',
+    requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+  }
   use {
   'VonHeikemen/lsp-zero.nvim',
   requires = {
