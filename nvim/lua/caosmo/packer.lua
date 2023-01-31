@@ -23,6 +23,7 @@ return require('packer').startup(function(use)
   use "EdenEast/nightfox.nvim"
   use "arcticicestudio/nord-vim"
   use "folke/tokyonight.nvim"
+  use "mickael-menu/zk-nvim"
   use {
     'nvim-lualine/lualine.nvim',
     requires = { 'kyazdani42/nvim-web-devicons', opt = true }
