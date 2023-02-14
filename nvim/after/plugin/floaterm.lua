@@ -1,5 +1,5 @@
 local function ejecutarc()
-    vim.cmd('FloatermNew --name=c --tittle=c --autoclose=0 gcc % -lpthread -lrt -o %< && ./%<')
+    vim.cmd('FloatermNew --name=c --tittle=c --autoclose=0 make && ./a.o')
 end
 vim.keymap.set('n', '<leader>cc', ejecutarc )
 
